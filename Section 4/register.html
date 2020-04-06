@@ -1,40 +1,50 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Register</title>
-</head>
-<body>
-	<h4>Please register to be able to continue to use the internet</h4>
-	<form>
-		<label for="fname">First name:</label><br>
-		<input type="text" id="fname" name="fname"><br>
+  <head>
+    <title>Register</title>
+  </head>
+  <body>
+    <h4>Please register to be able to continue to use the internet</h4>
+    <form>
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
 
-		<label for="lname">Last name:</label><br>
-		<input type="text" id="lname" name="lname"> <br>
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /> <br />
 
-		<label for="email" >Enter your email:</label> <br>
-		<input type="email" name="email" > <br>
+      <label for="email">Enter your email:</label> <br />
+      <input type="email" name="email" required /> <br />
 
-		<label for="gender">Gender</label> <br>
-		<input type="radio" name="gender" value="Man"> Man 
-		<input type="radio" name="gender" value="Woman"> Woman 
-		<input type="radio" name="gender" value="Other"> Other <br>
+      <label for="pw"> Password</label> <br />
+      <input type="password" name="pw" min="5" /> <br />
 
-		<label for="pets"> Pets?</label> <br>
-		<input type="checkbox" name="pets"	value="Dog"> Dog
-		<input type="checkbox" name="pets"	value="Cat"> Cat
-		<input type="checkbox" name="pets"	value="Fish"> Fish <br>
+      <label for=" birthday"> Birtday:</label> <br />
+      <input type="date" name="birthday" /> <br />
 
-		<label for="car"> Cars:</label> <br>
-		<select>
-			<option value = "volvo" > Volvo</option>
-			<option value="audi" > Audi</option>
-		</select> <br>
-		
-		<input type="submit" value="Register!">
-		<input type="reset" value="reset" >
+      <label for="gender">Gender</label> <br />
+      <input type="radio" name="gender" value="Man" /> Man
+      <input type="radio" name="gender" value="Woman" /> Woman
+      <input type="radio" name="gender" value="Other" /> Other <br />
 
+      <label for="pets"> Pets?</label> <br />
+      <input type="checkbox" name="pets" value="Dog" /> Dog
+      <input type="checkbox" name="pets" value="Cat" /> Cat
+      <input type="checkbox" name="pets" value="Fish" /> Fish <br />
 
-	</form>
-</body>
+      <label for="car"> Cars:</label> <br />
+      <select name="car">
+        <option value="volvo"> Volvo</option>
+        <option value="audi"> Audi</option>
+      </select>
+      <br />
+
+      <input type="submit" value="Register!" />
+      <input type="reset" value="reset" />
+    </form>
+    <br />
+
+    <a href="index.html">
+      <button name="back">Back</button>
+    </a>
+  </body>
 </html>
