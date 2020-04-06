@@ -2,6 +2,42 @@
     Property: value;
 } */
 
-h2 {
-  color: red;
+body {
+  background-image: url(background.jpeg);
+  background-size: cover;
+}
+/* Hej */
+p {
+  color: #aa4139;
+  text-align: left;
+  cursor: pointer;
+}
+
+p {
+  line-height: 45px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 5vw;
+  font-family: "Poiret One", cursive;
+}
+
+img {
+  float: left;
+  padding-right: 10px;
+  width: 20vw;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+section {
+  border: 5px solid rgba(255, 176, 170, 0.5);
+  padding: 5px 20px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
 }
